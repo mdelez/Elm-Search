@@ -4,7 +4,7 @@ import Browser
 import Search
 
 
-main : Program () Search.SearchParams Search.Msg
+main : Program () Search.Model Search.Msg
 main =
     Browser.element
         { init = Search.init
